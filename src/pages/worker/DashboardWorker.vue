@@ -28,7 +28,7 @@
     <WorkerNotice v-if="openNotice" @close="openNotice = false" />
     <!-- 메인 > 라우터 불러옴 -->
     <main>
-      <router-view></router-view>
+      <router-view class="px-10 py-6"></router-view>
     </main>
     <!-- 하단고정메뉴 -->
     <nav
