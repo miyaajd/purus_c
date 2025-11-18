@@ -109,13 +109,12 @@
         </div>
       </div>
     </div>
-
-    <!-- 달력 -->
-     
   </div>
+   <Calendar />
 </template>
 
 <script setup>
+import Calendar from '@/components/worker/Calendar.vue';
 import customerData from "@/data/customer.json";
 import { ref } from "vue";
 
@@ -123,4 +122,5 @@ import { ref } from "vue";
 const dataCustomer = ref(customerData);
 
 const calendarTab = ref("list");
+
 </script>
