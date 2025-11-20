@@ -41,10 +41,10 @@
     <form @submit.prevent="onSubmit" class="flex flex-col gap-10">
       <!-- 섹션3 / 서비스 상세 -->
       <div>
-        <h5 class="text-lg font-bold text-[#092857] pb-4">서비스 상세</h5>
+        <h5 class="text-lg font-bold text-[#57091c] pb-4">서비스 상세</h5>
         <textarea
           v-model="textarea"
-          class="w-full border-[1px] border-[rgba(0,0,0,0.3)] rounded-lg px-4 py-3 placeholder:opacity-70"
+          class="w-full border border-[rgba(0,0,0,0.3)] rounded-lg px-4 py-3 placeholder:opacity-70"
           placeholder="서비스 내용을 입력해주세요"
         ></textarea>
         <label
@@ -61,7 +61,7 @@
         <!-- 사인패드 -->
         <VueSignaturePad
           height="180px"
-          class="w-full border-[1px] rounded-lg border-[rgba(0,0,0,0.3)]"
+          class="w-full border rounded-lg border-[rgba(0,0,0,0.3)]"
           ref="signaturePad"
         />
       </div>
