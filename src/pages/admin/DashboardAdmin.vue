@@ -112,7 +112,7 @@ const today = new Date().toLocaleDateString("ko-KR", {
   day: "numeric",
 });
 
-// 통계카드
+
 const stats = [
   {
     title: "오늘 신규 예약",
