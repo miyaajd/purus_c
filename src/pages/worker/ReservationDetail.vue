@@ -78,7 +78,7 @@
 </template>
 
 <script setup>
-import customerDataRaw from "@/data/customer.json";
+import customerDataRaw from "@/data/reservations.json";
 import { computed, ref, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 

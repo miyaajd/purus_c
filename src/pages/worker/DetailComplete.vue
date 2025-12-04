@@ -104,7 +104,7 @@
 <script setup>
 import { ref, computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import customerDataRaw from "@/data/customer.json";
+import customerDataRaw from "@/data/reservations.json";
 
 const route = useRoute();
 const customerData = ref(customerDataRaw);

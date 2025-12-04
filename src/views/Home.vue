@@ -13,7 +13,7 @@
     <Point_banner />
     <Process />
     <Self_care />
-    <Event_banner/>
+    <Event_banner />
     <Real_review />
     <Best_pro />
     <FAQ />
@@ -37,7 +37,7 @@ import Service from "@/components/Service.vue";
 import Side_menu from "@/components/Side_menu.vue";
 import Visual from "@/components/Visual.vue";
 import Footer_w from "@/components/Footer_w.vue";
-import Quick_btn from '@/components/Quick_btn.vue';
+import Quick_btn from "@/components/Quick_btn.vue";
 import Event_banner from "@/components/Event_banner.vue";
 </script>
 <style lang="scss" scoped>
@@ -47,5 +47,4 @@ import Event_banner from "@/components/Event_banner.vue";
   height: 100dvh;
   position: relative;
 }
-
 </style>
