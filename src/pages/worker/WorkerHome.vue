@@ -191,7 +191,7 @@
 
 <script setup>
 import { computed, ref } from "vue";
-import customerData from "@/data/customer.json";
+import customerData from "@/data/reservations.json";
 import workerData from "@/data/worker.json";
 import { useRouter } from "vue-router";
 

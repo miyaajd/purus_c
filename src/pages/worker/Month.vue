@@ -114,7 +114,7 @@
 
 <script setup>
 import Calendar from "@/components/worker/Calendar.vue";
-import customerData from "@/data/customer.json";
+import customerData from "@/data/reservations.json";
 import { ref } from "vue";
 
 // 더미데이터 불러오기

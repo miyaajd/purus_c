@@ -1,6 +1,7 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-gray-100 p-8">
-    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+  <div
+    class="min-h-screen flex items-center justify-center bg-linear-to-b from-white to-[#F0FAFF] p-8">
+    <div class="bg-white p-8 rounded-[30px] shadow-[1px_4px_30px_rgba(0,0,0,0.11)] w-full max-w-md">
       <h2 class="text-center text-2xl font-bold text-gray-800 mb-8">로그인</h2>
       <form @submit.prevent="handleLogin" class="space-y-6">
         <div class="space-y-2">
